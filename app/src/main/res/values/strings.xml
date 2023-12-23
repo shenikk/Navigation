@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">NavigationAndroid</string>
+    <string name="screen_num">Screen %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

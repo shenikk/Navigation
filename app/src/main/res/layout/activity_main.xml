@@ -13,22 +13,23 @@
         android:background="?attr/colorPrimary"
         android:elevation="4dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Today we learn types of menus" />
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
-    <CheckBox
-        android:id="@+id/checkbox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="click me" />
+<!--    <TextView-->
+<!--        android:id="@+id/screen_num"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:textSize="26dp"-->
+<!--        android:text="@string/screen_num" />-->
 
-    <ImageView
-        android:id="@+id/launcher"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher" />
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="new Fragment"-->
+<!--        android:layout_gravity="center" />-->
 
 </LinearLayout>
