@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".fragment_parameters_2.MainActivity">
+    tools:context=".fragment_lifecycle_1.MainActivity2">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/my_toolbar"
@@ -13,23 +13,24 @@
         android:background="?attr/colorPrimary"
         android:elevation="4dp" />
 
+    <Button
+        android:id="@+id/fragment_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="new Fragment" />
+
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_container_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-<!--    <TextView-->
-<!--        android:id="@+id/screen_num"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_gravity="center"-->
-<!--        android:textSize="26dp"-->
-<!--        android:text="@string/screen_num" />-->
 
-<!--    <Button-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="new Fragment"-->
-<!--        android:layout_gravity="center" />-->
+<!--    <fragment-->
+<!--        android:id="@+id/fragment_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:name="com.example.navigationandroid.fragment_lifecycle.ExampleFragment2" />-->
 
 </LinearLayout>
